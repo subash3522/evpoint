@@ -7,10 +7,10 @@ function Navbar() {
     <header>
         <nav className="navbar">
             <div className="nav-logo">Logo</div>
+            <div className="ourservices"><a href="#" className='nav-a-big'>Our Services</a></div>
             <div className="links">
                 <ul>
                     <li>
-                        <a href="#">Our Services</a>
                         <a href="#">Why us</a>
                         <a href="#"> What we do</a>
                         <a href="#">Contact us</a>
