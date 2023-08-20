@@ -117,7 +117,7 @@ function NepalMap() {
             key={index}
             position={hotel.location}
             title={hotel.name}
-            icon={evStationIcon}
+            // icon={evStationIcon}
           />
         ))}
   
