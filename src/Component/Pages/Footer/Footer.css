@@ -1,0 +1,82 @@
+/* Footer Container */
+.custom-container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 77.5vh;
+    background-color: rgb(40, 197, 40);
+    width: 100%;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 18px;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+  }
+  
+  .instagram {
+    background-color: #ac2bac;
+  }
+  
+  .linkedin {
+    background-color: #0082ca;
+  }
+  
+  .github {
+    background-color: #333333;
+  }
+  
+  /* Copyright Text */
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+
+/* Flexbox Styles for fottext */
+.fottext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+    padding: 0 450px; /* Add padding for the gap on right and left sides */
+  }
+  
+  /* Center the 'Social Media' paragraph */
+  .fottext .mid {
+    margin: 0 auto;
+  }
+  
