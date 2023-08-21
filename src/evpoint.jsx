@@ -4,7 +4,7 @@ import { GoogleMap, LoadScript, Marker, DirectionsService, DirectionsRenderer } 
 // import evStationIconPath from '../src/Component/Image/download.png'; // Replace with the actual path to your EV station icon
 
 const containerStyle = {
-  width: '100%',
+  width: '60%',
   height: '650px',
 };
 
