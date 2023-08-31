@@ -9,7 +9,7 @@
     display: flex;
     background-color: white;
     justify-content: space-between;
-    border: solid black;
+    
     align-items: center;
 }
 .navbar ul li {
@@ -47,17 +47,29 @@
     color: white;
     height: 30px;
     width: 120px;
+    padding-top: 5px;
     text-align: center;
     border-radius: 20px;
+    margin-right: 30px;
+    font-size: 0.9rem;
 }
 
-
+.book{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 140px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.9rem;  
+}
 
 .nav-logo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
     color: green;
-    margin-left: 80px;
+    margin-left: 80px; 
 }
 
 

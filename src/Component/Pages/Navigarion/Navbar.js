@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
@@ -18,7 +20,9 @@ function Navbar() {
                 </ul>
             </div>
             <div className="options">
+                
                 <div className="search">
+                <FontAwesomeIcon icon={faMagnifyingGlass} />
                     Search now
                 </div>
                 <div className="book">
