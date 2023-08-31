@@ -8,7 +8,7 @@ import Footer from './Component/Pages/Footer/footer.jsx';
 function App() {
   return (
     <>
-      <Navbar />
+    <Navbar/>
       <Router>
         <Routes>
         <Route path="/" element={<Home/>} />
