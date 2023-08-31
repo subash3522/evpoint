@@ -10,16 +10,16 @@ import Home from './Component/Pages/HomePage/Home';
 function App() {
   return (
     <>
-   <Navbar/>
-   <Homepage/>
-   <Router>
-   <Routes>
-   <Route path="/nepalmap" element={<NepalMap/>} />
-   </Routes>
-   </Router>
-   <Footer/>
-
-   
+      <Navbar />
+      <Router>
+        <Routes>
+        <Route path="/" element={<Home/>} />
+          <Route path="/nepalmap" element={<NepalMap/>} />
+  
+        </Routes>
+       
+      </Router>
+      <Footer/>
     </>
   );
 }
