@@ -10,16 +10,17 @@ import Home from './Component/Pages/HomePage/Home';
 function App() {
   return (
     <>
-      <Navbar />
-      <Router>
-        <Routes>
-        <Route path="/" element={<Home/>} />
-          <Route path="/nepalmap" element={<NepalMap/>} />
-  
-        </Routes>
-       
-      </Router>
-      <Footer/>
+   <Navbar/>
+   {/* <Homepage/> */}
+   <Router>
+   <Routes>
+<Route path='/' element={<Homepage/>}/>
+   <Route path="/nepalmap" element={<NepalMap/>} />
+   </Routes>
+   </Router>
+   <Footer/>
+
+   
     </>
   );
 }
