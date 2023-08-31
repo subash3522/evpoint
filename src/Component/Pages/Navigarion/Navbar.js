@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faSomeIcon } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   return (

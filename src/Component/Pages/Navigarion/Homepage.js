@@ -75,7 +75,7 @@ function Homepage() {
                 to receive communication about our services.
               </span>
             </div>
-            <button className="button">Submit</button>
+            <button className="buttonSub">Submit</button>
           </div>
         </div>
       </div>
