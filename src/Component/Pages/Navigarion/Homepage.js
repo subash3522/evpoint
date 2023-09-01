@@ -34,7 +34,7 @@ function Homepage() {
           </div>
           <div className="rfp">Request for parking</div>
         </div>
-        <div className="request-box">
+        {/* <div className="request-box">
           <p className="req-1">Request an appointment</p>
           <p className="req-2">
             We will reach out to you as soon as possible to discuss deal with
@@ -77,7 +77,7 @@ function Homepage() {
             </div>
             <button className="buttonSub">Submit</button>
           </div>
-        </div>
+        </div> */}
       </div>
       <Second />
     </>

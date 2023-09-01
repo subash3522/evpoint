@@ -1,12 +1,12 @@
 .midsection {
-  height: 700px;
+  height: 1000px;
   width: 100%;
-  background-image: url("../../../../public/automobile1.jpg");
+  background-image: url("../../../../public/14244880_ThanitApril_34.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   object-fit: fill;
   position: relative;
-  padding: 1px 0 0 0;
-  margin: -1px auto 0 auto;
+
   background-position: center;
 }
 
@@ -41,7 +41,7 @@
   border-radius: 30px;
   width: 40%;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
  
 }
 
@@ -72,21 +72,22 @@
   backdrop-filter: blur(4px);
   box-shadow: 0 8px 6px rgba(18, 180, 104, 0.2);
   animation: rainbowBorder 6s infinite;
-  color: rgb(243, 229, 229);
-  border: 2px solid white; /* Default white border color */
+  color: rgb(0, 0, 0);
+  border: 5px solid white; /* Default white border color */
 }
 
 
 
 .req-1 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .req-2 {
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   margin-bottom: 20px;
+text-shadow: #ccc;
 }
 
 .inputs {

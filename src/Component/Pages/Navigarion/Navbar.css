@@ -1,75 +1,143 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.navbar{
-    height: 50px;
+/* Navbar container */
+.navbar {
     display: flex;
-    background-color: white;
     justify-content: space-between;
-    
     align-items: center;
-}
-.navbar ul li {
+    background-color: #ffffff; /* Change to your desired background color */
+    padding: 15px 20px;
+    color: rgb(0, 0, 0); /* Text color */
+  }
+  
+  /* Logo */
+  .nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1; /* Expands the logo to the left */
+  }
+  
+  /* Navigation links */
+  .links ul {
     list-style: none;
-}
+    display: flex;
+    gap: 15px;
+    align-items: center; /* Center the list vertically */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    margin-left: 35px;
+  }
+  
+  .links ul li {
+    position: relative;
+    margin-right: 35px;
+    margin-left: 35px;
 
-.navbar ul li a{
+  }
+  
+  .links ul li a {
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease;
     margin-left: 35px;
     margin-right: 35px;
-    color: black;
-    font-size: 0.8rem;
-   
-}
-.ourservices{
-    margin-left: 30px;
-}
+  }
+  
+  .links ul li a:hover {
+    color: #00ff00; /* Green color on hover */
+    text-decoration: underline; /* Underline on hover */
+    background-color: white; /* White background on hover */
+    border-radius: 5px;
+  }
 
-.ourservices a{
-    text-decoration: none;
-    font-size: 0.9rem;
-    color: black;
-    font-weight: bold;
-    
 
-}
-.options{
+  
+  .options{
     display: flex;
     margin-right: 50px;
-    width: 20%;
+    width: 20%; }
+
+    .search{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 120px;
+        padding-top: 5px;
+        text-align: center;
+        border-radius: 20px;
+        margin-right: 30px;
+        font-size: 0.9rem;
+    }
     
-}
-.search{
-    background-color: black;
-    color: white;
-    height: 30px;
-    width: 120px;
-    padding-top: 5px;
-    text-align: center;
-    border-radius: 20px;
-    margin-right: 30px;
-    font-size: 0.9rem;
-}
+    .book{
+        background-color: green;
+        color: white;
+        height: 30px;
+        width: 140px;
+        padding-top: 5px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 0.9rem;  
+    }
 
-.book{
-    background-color: green;
-    color: white;
-    height: 30px;
-    width: 140px;
-    padding-top: 5px;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 0.9rem;  
+  /* Dropdown menu */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  margin-right: 35px;
 }
 
-.nav-logo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.2rem;
-    color: green;
-    margin-left: 80px; 
+.dropdown span {
+  cursor: pointer;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff; /* Dropdown background color */
+  list-style: none;
+  z-index: -1;
+  padding: 0; /* Remove top and bottom padding */
+  margin: 0;
+  display: none;
+  white-space: nowrap; /* Prevent wrapping of dropdown items */
+}
+
+.open .dropdown-menu {
+  display: flex; /* Display dropdown items horizontally */
+  flex-direction: column; /* Arrange them in a row */
+  position: relative; /* Maintain positioning */
+  top: 100%; /* Position below the parent */
+  left: 0;
+}
+
+.dropdown-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+  display: flex;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #00ff00; /* Green color on hover */
 }
 
 
+.options .search:hover,
+.options .book a:hover {
+  background-color: #008ba3; /* Change to your desired button hover color */
+}
+
+/* Dropdown arrow icon */
+/* .dropdown span svg {
+  margin-left: 5px;
+  font-size: 12px;
+} */
