@@ -20,15 +20,15 @@ function App() {
        
       </Router>
       <Footer/>
-   <Navbar/>
-   {/* <Homepage/> */}
+   {/* <Navbar/> */}
+   {/* <Homepage/>
    <Router>
    <Routes>
 <Route path='/' element={<Homepage/>}/>
    <Route path="/nepalmap" element={<NepalMap/>} />
    </Routes>
    </Router>
-   <Footer/>
+   <Footer/> */}
 
    
     </>
