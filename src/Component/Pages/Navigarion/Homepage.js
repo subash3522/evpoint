@@ -19,7 +19,7 @@ function Homepage() {
 
   const blurHandlePhone = () => {
     setPhChecker(phone.length!==10);
-    
+     
       if (phone.trim() === "") {
       setPhChecker(true);
     }
