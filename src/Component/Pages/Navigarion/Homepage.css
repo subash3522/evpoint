@@ -1,5 +1,5 @@
 .midsection {
-  height: 400px;
+  height: 700px;
   width: 100%;
   background-image: url("../../../../public/automobile1.jpg");
   background-repeat: no-repeat;
@@ -9,22 +9,7 @@
   margin: -1px auto 0 auto;
   background-position: center;
 }
-.request-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 70vh;
-  width: 20%;
-  border-radius: 22px;
-  position: absolute;
-  right: 150px;
-    top: 20px;
-  background-color:white;
-  margin-left: 150px;
-  margin-top: 5px;
-  box-shadow:0px 4px 6px rgba(0, 0, 0, 2); ;
-  color: black;
-}
+
 /* .request-box::before {
   background-color: rgb(149, 149, 47);
   content: " ";
@@ -59,63 +44,131 @@
   color: white;
  
 }
-.request-box .req-1 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-left: 20px;
+
+@keyframes rainbowBorder {
+  0% { border: 2px solid red; }
+  14% { border: 2px solid orange; }
+  28% { border: 2px solid yellow; }
+  42% { border: 2px solid green; }
+  57% { border: 2px solid blue; }
+  71% { border: 2px solid indigo; }
+  85% { border: 2px solid violet; }
+  100% { border: 2px solid red; }
 }
-.request-box .req-2 {
-  font-size: 0.75rem;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-.inputs {
-  height: 53%;
+
+.request-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  height: 72vh;
+  width: 25%;
+  padding: 22px;
+  border-radius: 25px;
+  position: absolute;
+  top: 160px;
+  right: 150px;
+  /* background-color: rgba(18, 180, 104, 1); */
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 6px rgba(18, 180, 104, 0.2);
+  animation: rainbowBorder 6s infinite;
+  color: rgb(243, 229, 229);
+  border: 2px solid white; /* Default white border color */
 }
 
-.inputs input {
-  width: 82%;
-  height: 29px;
-  border-radius: 30px;
- 
-  /* background-color: rgb(242, 233, 222); */
+
+
+.req-1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
+.req-2 {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.inputs input,
+.comment {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputs input:focus,
+.comment:focus {
+  border-color: #007bff;
+}
 
 .comment {
-  width: 82%;
   height: 80px;
-  border-radius: 10px;
 }
+
 .comment::placeholder {
-  position: absolute;
-  right: 0;
   font-size: 0.9rem;
 }
-.two {
-  font-size: 0.75rem;
+
+.red {
+  border-color: red;
 }
+
+.two {
+  font-size: 0.85rem;
+  color: rgb(0, 0, 0);
+
+}
+
 .checkbox-bottom {
-  height: 120px;
   display: flex;
   flex-direction: column;
-  margin: 0 15px 10px 20px;
-  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
 }
-.button {
-  height: 30px;
-  width: 80px;
-  background-color: green;
-  border-radius: 12px;
+
+.topone {
+  display: flex;
+  align-items: center;
 }
-.green{
+
+.one {
+  margin-right: 10px;
+}
+
+.buttonSub {
+  align-self: flex-end;
+  padding: 8px 20px;
+  background-color: #28a745;
   border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
-.red{
-  border: solid red 2px;
+
+.buttonSub:hover {
+  background-color: #218838;
 }
+
+.buttonSub.clicked {
+  transform: scale(0.95);
+}
+
+.red {
+  border-color: red;
+}
+
+
+
+
+
