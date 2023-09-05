@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/evpoint/static/css/main.634d5277.css",
-    "main.js": "/evpoint/static/js/main.792af9ee.js",
+    "main.js": "/evpoint/static/js/main.2c2de547.js",
     "static/js/787.c136ba38.chunk.js": "/evpoint/static/js/787.c136ba38.chunk.js",
     "static/media/automobile1.jpg": "/evpoint/static/media/automobile1.be35968480d8085f6744.jpg",
     "static/media/carbackground.avif": "/evpoint/static/media/carbackground.d6ee3b04752d2295b9c2.avif",
     "index.html": "/evpoint/index.html",
     "main.634d5277.css.map": "/evpoint/static/css/main.634d5277.css.map",
-    "main.792af9ee.js.map": "/evpoint/static/js/main.792af9ee.js.map",
+    "main.2c2de547.js.map": "/evpoint/static/js/main.2c2de547.js.map",
     "787.c136ba38.chunk.js.map": "/evpoint/static/js/787.c136ba38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.634d5277.css",
-    "static/js/main.792af9ee.js"
+    "static/js/main.2c2de547.js"
   ]
 }
